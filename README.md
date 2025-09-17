@@ -3,14 +3,14 @@ To-Do Application
 
 
 
-Overview
+Overview:
 The Task Management App is a command-line interface (CLI) Python application that allows users to manage tasks effectively. Users can add, update, delete, and view tasks using simple text-based commands. The app operates in a continuous loop, processing user commands until the user exits.
 
-Program Structure
+Program Structure:
 The app consists of a single Python function, task(), which orchestrates all operations.
 
 Detailed Functionality
-1. Initialization
+1. Initialization:
 
 tasks = []
 print("----WELCOME TO THE TASK MANAGEMENT APP----")
@@ -18,7 +18,7 @@ print("----WELCOME TO THE TASK MANAGEMENT APP----")
 tasks (list): An empty list that will hold the tasks added by the user.
 Welcome Message: Displays a greeting and introductory message when the app starts.
 
-2. Adding Initial Tasks
+2. Adding Initial Tasks:
 
 total_task = int(input("Enter how many task you want to add = "))
 for i in range(1, total_task + 1):
@@ -30,7 +30,7 @@ Input Total Tasks: The user is prompted to specify how many tasks they intend to
 Task Input Loop: For each task, the app prompts for the task's name and appends it to the tasks list.
 Display Initial Tasks: After all initial tasks are entered, they are displayed to the user.
 
-3. Main Operation Loop
+3. Main Operation Loop:
 
 while True:
  operation = int(input("Enter \n1-Add\n2-Update\n3-Delete\n4-View\n5-Exit/Stop/"))
@@ -77,11 +77,11 @@ Invalid Input Handling: If a non-valid option number is entered, the program ale
 print("Invalid Input")
 
 
-Usage
+Usage:
 To use the app, run the Python script and follow the on-screen prompts to manage tasks. Choose from the provided options to add, update, delete, or view tasks. When finished, select the exit option to close the application.
 
-Error Handling
+Error Handling:
 Currently, the application handles invalid task operations gracefully by checking if tasks exist before updating or deleting. However, it could benefit from additional error handling for non-numeric input when choosing operations.
 
-Conclusion
-This documentation provides a comprehensive guide to the Task Management App. Each component and its functionality are detailed, providing clear instructions on how the app is structured and how to interact with it. Future improvements could include robust error handling and data persistence.
+Conclusion:
+Each component and its functionality are detailed, providing clear instructions on how the app is structured and how to interact with it. Future improvements could include robust error handling and data persistence.
