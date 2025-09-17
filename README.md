@@ -29,6 +29,7 @@ print(f"Today's tasks are\n{tasks}")
 Input Total Tasks: The user is prompted to specify how many tasks they intend to add initially.
 Task Input Loop: For each task, the app prompts for the task's name and appends it to the tasks list.
 Display Initial Tasks: After all initial tasks are entered, they are displayed to the user.
+
 3. Main Operation Loop
 
 while True:
